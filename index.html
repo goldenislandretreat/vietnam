@@ -9,14 +9,14 @@
 <body>
     <header>
         <div class="container">
-            <h1><a href="#home" class="logo">Golden Island</a></h1>
+            <h1><a href="index.html" class="logo">Golden Island</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#events">Events</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,10 +24,10 @@
 
     <section id="home">
         <div class="container">
-            <img src="logo.png" alt="Golden Island Logo" class="logo">
+            <img src="images/logo.png" alt="Golden Island Logo" class="logo">
             <h2>Welcome to Golden Island</h2>
             <p>Your tropical oasis in the heart of the city.</p>
-            <img src="cover.jpg" alt="Cover Image" class="cover">
+            <img src="images/cover.jpg" alt="Cover Image" class="cover">
         </div>
     </section>
 
@@ -42,11 +42,11 @@
         <div class="container">
             <h2>Our Services</h2>
             <ul>
-                <li><a href="#golden-bar">Golden Bar - Cocktail & Drinks</a>: Special drinks including cocktails, mocktails, coffee, fresh juices, and light snacks.</li>
-                <li><a href="#golden-wave">Golden Wave - Beach Pool</a>: Pool tickets, swimming lessons.</li>
-                <li><a href="#golden-island-venue">Golden Island - Venue Event</a>: Private event venue rentals for weddings, corporate events, and parties.</li>
-                <li><a href="#golden-stage">Golden Stage - Weekly Music Events</a>: Live music events with diverse themes and performances by local and international DJs.</li>
-                <li><a href="#golden-beer-club">Golden Beer Club - Brew Beach</a>: A variety of beers, including local fresh beer with a menu designed to pair with beer.</li>
+                <li><a href="golden-bar.html">Golden Bar - Cocktail & Drinks</a>: Special drinks including cocktails, mocktails, coffee, fresh juices, and light snacks.</li>
+                <li><a href="golden-wave.html">Golden Wave - Beach Pool</a>: Pool tickets, swimming lessons.</li>
+                <li><a href="golden-island-venue.html">Golden Island - Venue Event</a>: Private event venue rentals for weddings, corporate events, and parties.</li>
+                <li><a href="golden-stage.html">Golden Stage - Weekly Music Events</a>: Live music events with diverse themes and performances by local and international DJs.</li>
+                <li><a href="golden-beer-club.html">Golden Beer Club - Brew Beach</a>: A variety of beers, including local fresh beer with a menu designed to pair with beer.</li>
             </ul>
         </div>
     </section>
@@ -62,6 +62,17 @@
         <div class="container">
             <h2>Contact Us</h2>
             <p>Have questions? Reach out to us at <a href="mailto:contact@goldenisland.com">contact@goldenisland.com</a>.</p>
+            <form action="submit_form.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
@@ -72,3 +83,4 @@
     </footer>
 </body>
 </html>
+
