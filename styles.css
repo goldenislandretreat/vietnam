@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Blacker Sans Text', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FBF5D6;
@@ -23,6 +23,12 @@ header .container {
 
 header h1 {
     margin: 0;
+    font-family: 'Rockwell Extra Bold', Arial, sans-serif;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 header nav ul {
@@ -58,6 +64,11 @@ section#home {
     padding: 4em 0;
 }
 
+section h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer {
     background-color: #0D3220;
     color: #FFFFFF;
@@ -69,4 +80,30 @@ footer .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 0.5em;
+    }
+
+    section .container {
+        padding: 0 1em;
+    }
+
+    section#home {
+        padding: 2em 0;
+    }
 }
