@@ -28,7 +28,7 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: #D0A85F;
+    color: #0D3220;
 }
 
 header nav ul {
@@ -59,7 +59,7 @@ section .container {
 
 section#home {
     background-color: #0D3220;
-    color: #FFFFFF;
+    color: #D0A85F;
     text-align: center;
     padding: 4em 0;
 }
@@ -76,7 +76,7 @@ section#home .cover {
 
 footer {
     background-color: #0D3220;
-    color: #FFFFFF;
+    color: #D0A85F;
     text-align: center;
     padding: 1em 0;
 }
