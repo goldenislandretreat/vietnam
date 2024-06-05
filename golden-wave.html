@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Wave - Beach Pool</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Golden Wave - Golden Island</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><a href="index.html" class="logo">Golden Island</a></h1>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo Golden Island">
+                <span>Golden Island</span>
+            </a>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#events">Events</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                <ul class="nav-links">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.html#about">Giới thiệu</a></li>
+                    <li><a href="index.html#services">Dịch vụ</a></li>
+                    <li><a href="index.html#events">Sự kiện</a></li>
+                    <li><a href="index.html#contact">Liên hệ</a></li>
                 </ul>
             </nav>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
 
-    <section id="golden-wave">
+    <section class="hero">
         <div class="container">
-            <h2>Golden Wave - Beach Pool</h2>
-            <p>Pool tickets, swimming lessons, and more.</p>
+            <h2>Golden Wave - Hồ bơi</h2>
+            <p>Thưởng thức dịch vụ hồ bơi và các hoạt động dưới nước tại Golden Wave.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="container">
+            <h2>Chi tiết về Golden Wave</h2>
+            <p>Golden Wave cung cấp vé bơi, dạy bơi và các dịch vụ liên quan đến hồ bơi.</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Golden Island. All rights reserved.</p>
+            <p>&copy; 2024 Golden Island. Đã đăng ký bản quyền.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
