@@ -28,7 +28,7 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #D0A85F;
 }
 
 header nav ul {
@@ -44,7 +44,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #0D3220;
 }
 
 section {
@@ -64,9 +64,14 @@ section#home {
     padding: 4em 0;
 }
 
-section h2 a {
-    text-decoration: none;
-    color: inherit;
+section#home .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+section#home .cover {
+    max-width: 100%;
+    margin-top: 20px;
 }
 
 footer {
