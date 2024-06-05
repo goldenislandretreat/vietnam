@@ -23,11 +23,24 @@ header {
     padding: 10px 0;
 }
 
-header .logo {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.logo span {
     font-size: 24px;
     text-transform: uppercase;
     color: #D0A85F;
-    text-decoration: none;
+    vertical-align: middle;
 }
 
 nav {
@@ -66,9 +79,14 @@ nav {
     padding: 100px 20px;
 }
 
-.hero .logo {
-    width: 150px;
+.hero h2 {
+    font-size: 48px;
     margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 section {
@@ -83,6 +101,47 @@ section {
 .about h2, .services h2, .events h2, .contact h2 {
     color: #0D3220;
     margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.contact form input[type="submit"] {
+    padding: 10px 20px;
+    background: #0D3220;
+    color: #FBF5D6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact form input[type="submit"]:hover {
+    background: #D0A85F;
 }
 
 footer {
@@ -123,3 +182,4 @@ footer {
         font-size: 18px;
     }
 }
+
