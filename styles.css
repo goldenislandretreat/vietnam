@@ -96,6 +96,8 @@ section {
 .about, .services, .events, .contact {
     background: #FBF5D6;
     margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .about h2, .services h2, .events h2, .contact h2 {
@@ -150,6 +152,8 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Responsive */
@@ -182,4 +186,3 @@ footer {
         font-size: 18px;
     }
 }
-
