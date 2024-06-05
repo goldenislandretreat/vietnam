@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Bar - Cocktail & Drinks</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Golden Bar - Golden Island</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><a href="index.html" class="logo">Golden Island</a></h1>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo Golden Island">
+                <span>Golden Island</span>
+            </a>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#events">Events</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                <ul class="nav-links">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.html#about">Giới thiệu</a></li>
+                    <li><a href="index.html#services">Dịch vụ</a></li>
+                    <li><a href="index.html#events">Sự kiện</a></li>
+                    <li><a href="index.html#contact">Liên hệ</a></li>
                 </ul>
             </nav>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
 
-    <section id="golden-bar">
+    <section class="hero">
         <div class="container">
-            <h2>Golden Bar - Cocktail & Drinks</h2>
-            <p>Special drinks including cocktails, mocktails, coffee, fresh juices, and light snacks.</p>
+            <h2>Golden Bar - Cocktail & Đồ uống</h2>
+            <p>Thưởng thức các loại đồ uống đặc biệt tại Golden Bar.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="container">
+            <h2>Chi tiết về Golden Bar</h2>
+            <p>Golden Bar cung cấp các loại cocktail, mocktail, cà phê, nước ép tươi và đồ ăn nhẹ.</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Golden Island. All rights reserved.</p>
+            <p>&copy; 2024 Golden Island. Đã đăng ký bản quyền.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
