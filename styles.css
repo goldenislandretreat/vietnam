@@ -59,7 +59,7 @@ section .container {
 
 section#home {
     background-color: #0D3220;
-    color: #D0A85F;
+    color: #FFFFFF;
     text-align: center;
     padding: 4em 0;
 }
@@ -76,7 +76,7 @@ section#home .cover {
 
 footer {
     background-color: #0D3220;
-    color: #D0A85F;
+    color: #FFFFFF;
     text-align: center;
     padding: 1em 0;
 }
@@ -85,6 +85,30 @@ footer .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form input[type="submit"] {
+    margin-top: 1em;
+    background-color: #D0A85F;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
 
 /* Responsive design */
@@ -112,3 +136,4 @@ footer .container {
         padding: 2em 0;
     }
 }
+
