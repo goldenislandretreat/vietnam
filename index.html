@@ -11,7 +11,7 @@
         <div class="container">
             <h1><a href="index.html" class="logo">Golden Island</a></h1>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="index.html#services">Services</a></li>
@@ -19,10 +19,13 @@
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
 
-    <section id="home">
+    <section id="home" class="hero">
         <div class="container">
             <img src="images/logo.png" alt="Golden Island Logo" class="logo">
             <h2>Welcome to Golden Island</h2>
@@ -31,14 +34,14 @@
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
             <p>Golden Island is the ideal destination for those who love adventure and want to enjoy a full, exciting life at a tropical "oasis". With the perfect blend of majestic nature, unique architecture, and quality service, Golden Island brings unforgettable experiences to every guest.</p>
         </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
             <ul>
@@ -51,14 +54,14 @@
         </div>
     </section>
 
-    <section id="events">
+    <section id="events" class="events">
         <div class="container">
             <h2>Upcoming Events</h2>
             <p>Stay tuned for exciting events happening at Golden Island.</p>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Have questions? Reach out to us at <a href="mailto:contact@goldenisland.com">contact@goldenisland.com</a>.</p>
@@ -81,5 +84,7 @@
             <p>&copy; 2024 Golden Island. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
