@@ -2,10 +2,12 @@
     /images
         logo.png
         cover.jpg
+    /css
+        styles.css
     index.html
-    styles.css
     golden-bar.html
     golden-wave.html
     golden-island-venue.html
     golden-stage.html
     golden-beer-club.html
+    script.js
