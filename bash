@@ -1,13 +1,11 @@
-/golden-island
-    /images
-        logo.png
-        cover.jpg
-    /css
-        styles.css
-    index.html
+/goldenislandretreat
+    cover.jpg
     golden-bar.html
-    golden-wave.html
+    golden-beer-club.html
     golden-island-venue.html
     golden-stage.html
-    golden-beer-club.html
+    golden-wave.html
+    index.html
+    logo.png
     script.js
+    styles.css
