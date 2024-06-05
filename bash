@@ -1,0 +1,11 @@
+/golden-island
+    /images
+        logo.png
+        cover.jpg
+    index.html
+    styles.css
+    golden-bar.html
+    golden-wave.html
+    golden-island-venue.html
+    golden-stage.html
+    golden-beer-club.html
