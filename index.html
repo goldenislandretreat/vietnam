@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><a href="index.html" class="logo">Golden Island</a></h1>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Golden Island Logo">
+                <span>Golden Island</span>
+            </a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
@@ -27,7 +30,6 @@
 
     <section id="home" class="hero">
         <div class="container">
-            <img src="images/logo.png" alt="Golden Island Logo" class="logo">
             <h2>Welcome to Golden Island</h2>
             <p>Your tropical oasis in the heart of the city.</p>
             <img src="images/cover.jpg" alt="Cover Image" class="cover">
@@ -66,14 +68,22 @@
             <h2>Contact Us</h2>
             <p>Have questions? Reach out to us at <a href="mailto:contact@goldenisland.com">contact@goldenisland.com</a>.</p>
             <form action="submit_form.html" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
                 <input type="submit" value="Submit">
             </form>
         </div>
