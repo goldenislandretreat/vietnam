@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Stage - Weekly Music Events</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Golden Stage - Sự kiện âm nhạc hàng tuần</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><a href="index.html" class="logo">Golden Island</a></h1>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo Golden Island">
+                <span>Golden Island</span>
+            </a>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#events">Events</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                <ul class="nav-links">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.html#about">Giới thiệu</a></li>
+                    <li><a href="index.html#services">Dịch vụ</a></li>
+                    <li><a href="index.html#events">Sự kiện</a></li>
+                    <li><a href="index.html#contact">Liên hệ</a></li>
                 </ul>
             </nav>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
 
-    <section id="golden-stage">
+    <section class="hero">
         <div class="container">
-            <h2>Golden Stage - Weekly Music Events</h2>
-            <p>Live music events with diverse themes and performances by local and international DJs. Enjoy our Euro 2024 special events with live music and football screenings.</p>
+            <h2>Golden Stage - Sự kiện âm nhạc hàng tuần</h2>
+            <p>Thưởng thức các sự kiện âm nhạc trực tiếp tại Golden Stage.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="container">
+            <h2>Chi tiết về Golden Stage</h2>
+            <p>Golden Stage tổ chức các sự kiện âm nhạc trực tiếp hàng tuần với nhiều chủ đề đa dạng và biểu diễn của các DJ trong nước và quốc tế.</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Golden Island. All rights reserved.</p>
+            <p>&copy; 2024 Golden Island. Đã đăng ký bản quyền.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
