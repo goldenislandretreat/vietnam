@@ -70,6 +70,11 @@ nav {
 
 .nav-toggle {
     display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #FBF5D6;
 }
 
 .hero {
@@ -161,6 +166,10 @@ footer {
     .nav-links {
         flex-direction: column;
         display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
     .nav-links li {
